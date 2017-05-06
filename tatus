@@ -1,0 +1,69 @@
+[33mcommit db9210f2967af99bc83415e55429cf2f9f177fd0[m
+Author: farhad rasouli <rasouli.farhad@gmail.com>
+Date:   Sat May 6 12:40:36 2017 +0430
+
+    restore json file(deleted email field  restored)
+
+[1mdiff --git a/quidditch-rules.json b/quidditch-rules.json[m
+[1mindex 237fc39..baf343b 100644[m
+[1m--- a/quidditch-rules.json[m
+[1m+++ b/quidditch-rules.json[m
+[36m@@ -1,4 +1,5 @@[m
+ {[m
+ "name": "farhad rasouli",[m
+[32m+[m[32m"email" : "rasouli.farhad@gmail.com"[m
+ [m
+ }[m
+\ No newline at end of file[m
+
+[33mcommit 912ddd21c1d1144b61076d5dfc6177443988530b[m
+Author: farhad rasouli <rasouli.farhad@gmail.com>
+Date:   Sat May 6 12:31:23 2017 +0430
+
+    delete field email in json
+
+[1mdiff --git a/quidditch-rules.json b/quidditch-rules.json[m
+[1mindex baf343b..237fc39 100644[m
+[1m--- a/quidditch-rules.json[m
+[1m+++ b/quidditch-rules.json[m
+[36m@@ -1,5 +1,4 @@[m
+ {[m
+ "name": "farhad rasouli",[m
+[31m-"email" : "rasouli.farhad@gmail.com"[m
+ [m
+ }[m
+\ No newline at end of file[m
+
+[33mcommit cf88cc4efe9b57692632e66b70a4455da3fafddb[m
+Author: farhad rasouli <rasouli.farhad@gmail.com>
+Date:   Sat May 6 12:29:38 2017 +0430
+
+    add field to json
+
+[1mdiff --git a/quidditch-rules.json b/quidditch-rules.json[m
+[1mindex 7a73a41..baf343b 100644[m
+[1m--- a/quidditch-rules.json[m
+[1m+++ b/quidditch-rules.json[m
+[36m@@ -1,2 +1,5 @@[m
+ {[m
+[32m+[m[32m"name": "farhad rasouli",[m
+[32m+[m[32m"email" : "rasouli.farhad@gmail.com"[m
+[32m+[m
+ }[m
+\ No newline at end of file[m
+
+[33mcommit 4fc2dba6d5e03a9e4ed12d47705f36e41fbdf0ee[m
+Author: farhad rasouli <rasouli.farhad@gmail.com>
+Date:   Sat May 6 12:19:13 2017 +0430
+
+    add json rules and python program
+
+[1mdiff --git a/quidditch-rules.json b/quidditch-rules.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7a73a41[m
+[1m--- /dev/null[m
+[1m+++ b/quidditch-rules.json[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m}[m
+\ No newline at end of file[m
